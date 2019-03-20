@@ -1,0 +1,130 @@
+body {
+  background-color: #FFFFFF;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  max-width: 375px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+nav {
+  background-color: #47C792;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  width: 375px;
+}
+
+h1 {
+  float: inherit;
+  font-family: "SF Pro Text";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+h2, h3 {
+  float: left;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h4, h5 {
+  color: #646464;
+  float: right;
+  font-family: "Alegreya Sans SC";
+  margin-right: 10px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.yellow {
+  color: #FFB800;
+}
+
+.red {
+  color: #FF0000;
+}
+
+.green {
+  color: #00AB3A;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.bus {
+  border-top: 0.1px solid #dadada;
+  margin: auto;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.direction, .alerts {
+  border-top: 0.1px solid #dadada;
+  color: #47C792;
+  margin: auto;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.alerts {
+  color: #FF0000;
+}
+
+.right {
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.statusbar {
+  padding-bottom: 10px;
+  max-width: 375px;
+}
+
+.arrow {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 10px;
+}
+
+.backarrow {
+  float: left;
+  margin-left: 20px;
+  margin-top: 7.5px;
+  width: 15px;
+}
+
+.menu {
+  float: right;
+  margin-right: 20px;
+  margin-top: 7.5px;
+}
+
+.navbar {
+  background-color: #47C792;
+  bottom: 0;
+  position: fixed;
+  width: 375px;
+}
